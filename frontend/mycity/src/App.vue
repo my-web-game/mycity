@@ -1,47 +1,35 @@
+-- Active: 1753917762459@@127.0.0.1@3306
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import { init, uninit } from '@/scripts/main';
+import { onMounted, onUnmounted } from 'vue';
+
+onMounted(() => {
+    init()
+});
+
+onUnmounted(() => {
+    uninit()
+})
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+  <main></main>
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
+<style>
+html {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  overflow: hidden;
 }
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
+body {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  overflow: hidden;
 }
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
+#app {
+  margin: 0px 0px;
+  padding: 0px 0px;
+  overflow: hidden;
 }
 </style>
