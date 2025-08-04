@@ -1,0 +1,8 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://d36xyq1yuc3g1"]
+
+[ext_resource type="Script" uid="uid://627nm5wwb20h" path="res://scripts/resource/InitState.gd" id="1_g5ko2"]
+
+[resource]
+script = ExtResource("1_g5ko2")
+tech = 2
+resource = 3
