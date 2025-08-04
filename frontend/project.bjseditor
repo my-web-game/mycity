@@ -1,8 +1,0 @@
-{
-	"plugins": [],
-	"version": "5.0.0",
-	"packageManager": "bun",
-	"lastOpenedScene": "/assets/example.scene",
-	"compressedTexturesEnabled": false,
-	"compressedTexturesEnabledInPreview": false
-}
