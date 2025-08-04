@@ -1,4 +1,4 @@
 /backend/bin
 /backend/static
-/frontend/dist
 /frontend/node_modules
+/output
